@@ -1,0 +1,57 @@
+Total surface area per mass in m^2/g
+Zeolite: PB v4.0, RASPA2 (Minimum), Zeo++ (1.86) (Linux)
+HKUST-1: 1860.87, 1855.68, 2091.23
+IRMOF-1: 3378.17, xxxx.xx, 3659.95
+ZIF-8  : 1168.58, 1113.85, 1390.56
+----------
+ZIF-90 :  477.88, 1097.69, 1362.45
+
+d = 3.314 * 2^(1/6) = 3.7198 [Angstrom]
+r = d/2 = 1.86 [Angstrom]
+Total_surface_area_m^2/g = ASA_m^2/g + NASA_m^2/g
+
+PB v4.0 (defaults.dat)
+----------
+UFF.atoms
+2.58, 10.22, 298, 12.8
+3.314
+500
+0.2
+20.0, 0.25
+21908391 
+0
+----------
+
+
+RASPA2 (simulation.input)
+----------
+SimulationType        MonteCarlo
+NumberOfCycles        10000
+PrintEvery            100
+PrintPropertiesEvery  100
+
+Forcefield GenericMOFs
+CutOff 12.8
+
+Framework 0
+FrameworkName HKUST-1
+UnitCells 1 1 1
+SurfaceAreaProbeDistance Minimum
+
+Component 0 MoleculeName             N2
+            StartingBead             0
+            MoleculeDefinition       TraPPE
+            SurfaceAreaProbability   1.0
+            CreateNumberOfMolecules  0
+----------
+  The area depends on the probe atom and on whether the well-depth at 2^(1/6)*sigma (1.12246*sigma) is used (ÅeSurfaceAreaProbeDistance MinimumÅf)
+
+
+Zeo++ (command)
+----------
+network.exe -ha -sa 1.86 1.86 2000 case.cif
+----------
+  Probe-occupiable volume calculations: D. Ongari, P. Boyd, S. Barthel, M. Witman, M. Haranczyk, B. Smit, Accurate Characterization of the Pore Volume in Microporous Crystalline Materials, Langmuir, 33,14529 (2017) http://dx.doi.org/10.1021/acs.langmuir.7b01682.
+
+  In our calculations, the He volume is computed at 298 K (25 ÅãC), which is the typical temperature condition of most previous calculations. We used the Lennard-Jones potential to describe the dispersion interactions, applying the Lorentz-Berthelod mixing rules and considering a cutoff distance of 12.8 Angstrom; beyond that, the potential is set to 0. Parameters for the framework and for helium were taken from the universal force field (UFF) and from Hirschfelder, respectively. Concerning the Åhhard sphereÅh calculations (Gm, PC, and PO) and for all the software packages (Poreblazer, Zeo++, and PLATON), the Lennard-Jones É– values from UFF were used as the diameter of the framework atoms, to be consistent with the He calculations. A kinetic radius of 1.86 Angstrom was considered for nitrogen.
+----------
