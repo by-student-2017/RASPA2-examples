@@ -1,13 +1,13 @@
 SimulationType        MonteCarlo
-NumberOfCycles        500000
-PrintEvery            100
-PrintPropertiesEvery  100
+NumberOfCycles        100000
+PrintEvery            1000
+PrintPropertiesEvery  1000
 
 Forcefield            GenericMOFs
 
 Framework 0
 FrameworkName CoBDP
-UnitCells 1 1 1
+UnitCells 2 2 2
 ExternalTemperature 298.0
 
 Component 0 MoleculeName             helium
