@@ -37,6 +37,6 @@ for folder in "${folder_name[@]}"; do
 	sed -i s/ZUC/${zuc}/g simulation.input
 	./run
 	cd ..
-	awk -v f=${foldar} '{if($3=="Widom" && $4=="Rosenbluth-weight:"){printf "%s, %f, %f",f,$5,$7}}' ./${folder}/Output/System_0/output_${folder}_${xuc}.${yuc}.${zuc}_*_0.data >> HeliumVoidFraction.txt
+	awk -v file=${folder} '{if($3=="Widom" && $4=="Rosenbluth-weight:"){printf "%s, %f, %f\n",file,$5,$7}}' ./${folder}/Output/System_0/output_${folder}_${xuc}.${yuc}.${zuc}_*_0.data >> HeliumVoidFraction.txt
 	date
 done
