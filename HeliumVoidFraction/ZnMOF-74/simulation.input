@@ -7,7 +7,7 @@ Forcefield            GenericMOFs
 
 Framework 0
 FrameworkName ZnMOF-74
-UnitCells 2 2 2
+UnitCells 1 1 4
 ExternalTemperature 298.0
 
 Component 0 MoleculeName             helium

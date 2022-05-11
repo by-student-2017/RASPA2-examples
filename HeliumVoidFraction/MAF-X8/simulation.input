@@ -7,7 +7,7 @@ Forcefield            GenericMOFs
 
 Framework 0
 FrameworkName MAF-X8
-UnitCells 2 2 2
+UnitCells 2 1 1
 ExternalTemperature 298.0
 
 Component 0 MoleculeName             helium
