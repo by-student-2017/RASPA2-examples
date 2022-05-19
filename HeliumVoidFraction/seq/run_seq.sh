@@ -14,9 +14,9 @@ folder_name=( COF-1
  PCN-60 UIO-66 UMCM-1
  ZIF-8 ZIF-90
  ZnBDC ZnBDCdabco ZnMOF-74
- Zr-TPDC
+ Zr-TPDC )
 
-chmod +x run)
+chmod +x run
 
 if [ ! -e HeliumVoidFraction.txt ]; then
 	echo "# Name, Value, Error(+/-): UnitCellsi ${xuc} ${yuc} ${zuc}" > HeliumVoidFraction.txt
