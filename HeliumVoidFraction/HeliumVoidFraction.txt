@@ -1,4 +1,4 @@
-# Name, Value([helium] Average Widom Rosenbluth-weight), Error(+/-),UnitCells (L > = 2.4 nm)
+# Name, Value([helium] Average Widom Rosenbluth-weight), Error(+/-),UnitCells (L >= about 2.4 nm)
 COF-1   , 0.336782, 0.000237, 2 2 4
 COF-102 , 0.796868, 0.000521, 1 1 1
 COF-103 , 0.812056, 0.000647, 1 1 1
@@ -78,3 +78,11 @@ ZnBDCdabco, 0.629657, 0.000793, 3 3 3
 ZnHBDC  , 0.626991, 0.001043, 2 2 2
 ZnMOF-74, 0.715319, 0.000979, 1 1 4
 Zr-TPDC , 0.763531, 0.000264, 1 1 1
+JUC-596_fsi_net_calc, 0.928342, 0.000435, 1 1 1
+JUC-596_hea_net_calc, 0.917598, 0.000520, 1 1 1
+JUC-596_hea_net_exp, 0.917798, 0.000188, 1 1 1
+JUC-596_tpt_net_calc, 0.504317, 0.000598, 1 1 1 (23.52680, 23.52680, 37.15450)
+JUC-597_fsi_net_calc, 0.929299, 0.000489, 1 1 1
+JUC-597_hea_net_calc, 0.915479, 0.000314, 1 1 1
+JUC-597_hea_net_exp, 0.915521, 0.000069, 1 1 1
+JUC-597_tpt_net_calc, 0.492492, 0.000434, 1 1 1 (22.95190, 22.95190, 39.79940)
