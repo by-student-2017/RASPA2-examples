@@ -5,19 +5,19 @@ Compiled as a 64-bits application
 Compiler: gcc 9.3.0
 Compile Date = Feb 28 2022, Compile Time = 20:33:15
 
-Mon Jun  6 15:32:54 2022
-Simulation started on Monday, June 06.
-The start time was 03:32 PM.
+Tue Jun  7 22:14:08 2022
+Simulation started on Tuesday, June 07.
+The start time was 10:14 PM.
 
-Hostname:    The start time was 03:32 PM.
-OS type:     The start time was 03:32 PM.
-OS release:  The start time was 03:32 PM.
-OS version:  The start time was 03:32 PM.
+Hostname:    The start time was 10:14 PM.
+OS type:     The start time was 10:14 PM.
+OS release:  The start time was 10:14 PM.
+OS version:  The start time was 10:14 PM.
 
 Simulation
 ===========================================================================
 Dimensions: 3
-Random number seed: 1654497173
+Random number seed: 1654607648
 RASPA directory set to: /home/inukai/RASPA/simulations/
 String appended to output-files: 
 Number of cycles: 100000
@@ -550,15 +550,15 @@ Pseudo Atom[ 102] Name H73      Oxidation:          Element: H    pdb-name: H   
 Pseudo Atom[ 103] Name H74      Oxidation:          Element: H    pdb-name: H    Scat. Types:   1   1 Mass=1.007940754  B-factor:0.000   
                  Charge=0.000000000  (-na-)  Polarization=0.666793000  [A^3] (considered a chargeless atom and no polarization)  Interactions: yes
                  Anisotropic factor:    0.000 [-] (Absolute), Radius:    0.320 [A], Framework-atom: yes (charge definition not found)
-Pseudo Atom[ 104] Name C75      Oxidation:          Element: H    pdb-name: H    Scat. Types:   1   1 Mass=1.007940754  B-factor:0.000   
-                 Charge=0.000000000  (-na-)  Polarization=0.666793000  [A^3] (considered a chargeless atom and no polarization)  Interactions: yes
-                 Anisotropic factor:    0.000 [-] (Absolute), Radius:    0.320 [A], Framework-atom: yes (charge definition not found)
-Pseudo Atom[ 105] Name C76      Oxidation:          Element: H    pdb-name: H    Scat. Types:   1   1 Mass=1.007940754  B-factor:0.000   
-                 Charge=0.000000000  (-na-)  Polarization=0.666793000  [A^3] (considered a chargeless atom and no polarization)  Interactions: yes
-                 Anisotropic factor:    0.000 [-] (Absolute), Radius:    0.320 [A], Framework-atom: yes (charge definition not found)
-Pseudo Atom[ 106] Name C77      Oxidation:          Element: H    pdb-name: H    Scat. Types:   1   1 Mass=1.007940754  B-factor:0.000   
-                 Charge=0.000000000  (-na-)  Polarization=0.666793000  [A^3] (considered a chargeless atom and no polarization)  Interactions: yes
-                 Anisotropic factor:    0.000 [-] (Absolute), Radius:    0.320 [A], Framework-atom: yes (charge definition not found)
+Pseudo Atom[ 104] Name C75      Oxidation:          Element: C    pdb-name: C    Scat. Types:   7   6 Mass=12.010735897 B-factor:0.000   
+                 Charge=0.000000000  (-na-)  Polarization=1.760000000  [A^3] (considered a chargeless atom and no polarization)  Interactions: yes
+                 Anisotropic factor:    0.000 [-] (Absolute), Radius:    0.750 [A], Framework-atom: yes (charge definition not found)
+Pseudo Atom[ 105] Name C76      Oxidation:          Element: C    pdb-name: C    Scat. Types:   7   6 Mass=12.010735897 B-factor:0.000   
+                 Charge=0.000000000  (-na-)  Polarization=1.760000000  [A^3] (considered a chargeless atom and no polarization)  Interactions: yes
+                 Anisotropic factor:    0.000 [-] (Absolute), Radius:    0.750 [A], Framework-atom: yes (charge definition not found)
+Pseudo Atom[ 106] Name C77      Oxidation:          Element: C    pdb-name: C    Scat. Types:   7   6 Mass=12.010735897 B-factor:0.000   
+                 Charge=0.000000000  (-na-)  Polarization=1.760000000  [A^3] (considered a chargeless atom and no polarization)  Interactions: yes
+                 Anisotropic factor:    0.000 [-] (Absolute), Radius:    0.750 [A], Framework-atom: yes (charge definition not found)
 Pseudo Atom[ 107] Name H78      Oxidation:          Element: H    pdb-name: H    Scat. Types:   1   1 Mass=1.007940754  B-factor:0.000   
                  Charge=0.000000000  (-na-)  Polarization=0.666793000  [A^3] (considered a chargeless atom and no polarization)  Interactions: yes
                  Anisotropic factor:    0.000 [-] (Absolute), Radius:    0.320 [A], Framework-atom: yes (charge definition not found)
@@ -6396,12 +6396,12 @@ Component 0 [helium] (Adsorbate molecule)
 
 	Amount of excess molecules:       0.0000000000 [-]
 
-	Conversion factor molecules/unit cell -> mol/kg:       0.0843645378 [-]
-	Conversion factor molecules/unit cell -> mg/g:       0.3376776675 [-]
-	Conversion factor molecules/unit cell -> cm^3 STP/gr:       1.8909447031 [-]
+	Conversion factor molecules/unit cell -> mol/kg:       0.0827514505 [-]
+	Conversion factor molecules/unit cell -> mg/g:       0.3312211211 [-]
+	Conversion factor molecules/unit cell -> cm^3 STP/gr:       1.8547890039 [-]
 	Conversion factor molecules/unit cell -> cm^3 STP/cm^3:       0.2985988689 [-]
 	Conversion factor mol/kg -> cm^3 STP/gr:      22.4139757476 [-]
-	Conversion factor mol/kg -> cm^3 STP/cm^3:       3.5393884308 [-]
+	Conversion factor mol/kg -> cm^3 STP/cm^3:       3.6083822967 [-]
 
 	Partial pressure: -16605402.00000000000000 [Pa]
 	                    -124540.51499999999942 [Torr]
@@ -6612,8 +6612,8 @@ No replicas are used
 Framework is simulated as 'rigid'
 Number of framework atoms: 1365
 Number of framework atoms in the unit cell: 1365
-Framework Mass: 11853.321628264453 [g/mol]
-Framework Density:   157.909889378445 [kg/m^3]    6.3327256065857 [cm^3/g]
+Framework Mass: 12084.380326264709 [g/mol]
+Framework Density:   160.988052157235 [kg/m^3]    6.2116410913731 [cm^3/g]
 Helium void fraction:    0.00000000
 Available pore volume:    0.00000000 [A^3]    0.00000000 [cm^3/g]
 Conversion factor from molecule/unit cell -> kmol/m^3: 0.013322, kmol/m^3 accesible pore volume: inf
@@ -6664,8 +6664,8 @@ Number of asymmetric atoms: 79
 Number of free framework atoms: 0
 Number of fixed framework atoms: 1365
 Number of framework atoms in the unit cell: 1365
-Framework Mass: 11853.321628264453 [g/mol]
-Framework Density:   157.909889378445 [kg/m^3]
+Framework Mass: 12084.380326264709 [g/mol]
+Framework Density:   160.988052157235 [kg/m^3]
 Framework has net charge: 0.000000
          largest charge : 0.000000
          smallest charge: 0.000000
@@ -6991,11 +6991,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33772e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.914645 [-])
+	Component 0: 2.29456e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915256 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8487932110 [K]  (     -0.2814346037 [kJ/mol])
-Component [helium] average Widom:       0.9146451147, average chemical potential:   -3469.9201699598 [K]
-		(average excess chemical potential:      26.5873278410 [K], ideal-gas contribution:   -3496.5074978009 [K])
+	Component 0:     -34.0140276993 [K]  (     -0.2828084401 [kJ/mol])
+Component [helium] average Widom:       0.9152564962, average chemical potential:   -3470.1192974709 [K]
+		(average excess chemical potential:      26.3882003300 [K], ideal-gas contribution:   -3496.5074978009 [K])
 
 
 Current cycle: 1000 out of 100000
@@ -7040,11 +7040,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33965e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915399 [-])
+	Component 0: 2.2965e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.916031 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -34.1567707189 [K]  (     -0.2839952719 [kJ/mol])
-Component [helium] average Widom:       0.9153988996, average chemical potential:   -3470.1656592673 [K]
-		(average excess chemical potential:      26.3418385337 [K], ideal-gas contribution:   -3496.5074978011 [K])
+	Component 0:     -34.4777228299 [K]  (     -0.2866638170 [kJ/mol])
+Component [helium] average Widom:       0.9160314010, average chemical potential:   -3470.3714935756 [K]
+		(average excess chemical potential:      26.1360042254 [K], ideal-gas contribution:   -3496.5074978011 [K])
 
 
 Current cycle: 2000 out of 100000
@@ -7089,11 +7089,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33956e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915364 [-])
+	Component 0: 2.29521e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915517 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.9572921793 [K]  (     -0.2823367146 [kJ/mol])
-Component [helium] average Widom:       0.9153638160, average chemical potential:   -3470.1542378945 [K]
-		(average excess chemical potential:      26.3532599067 [K], ideal-gas contribution:   -3496.5074978011 [K])
+	Component 0:     -34.2407309343 [K]  (     -0.2846933562 [kJ/mol])
+Component [helium] average Widom:       0.9155172892, average chemical potential:   -3470.2041974933 [K]
+		(average excess chemical potential:      26.3033003078 [K], ideal-gas contribution:   -3496.5074978011 [K])
 
 
 Current cycle: 3000 out of 100000
@@ -7138,11 +7138,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33958e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915371 [-])
+	Component 0: 2.29463e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915286 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.9530015132 [K]  (     -0.2823010400 [kJ/mol])
-Component [helium] average Widom:       0.9153714836, average chemical potential:   -3470.1567341103 [K]
-		(average excess chemical potential:      26.3507636908 [K], ideal-gas contribution:   -3496.5074978012 [K])
+	Component 0:     -34.1319356284 [K]  (     -0.2837887814 [kJ/mol])
+Component [helium] average Widom:       0.9152862838, average chemical potential:   -3470.1289959107 [K]
+		(average excess chemical potential:      26.3785018905 [K], ideal-gas contribution:   -3496.5074978012 [K])
 
 
 Current cycle: 4000 out of 100000
@@ -7187,11 +7187,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33944e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915318 [-])
+	Component 0: 2.29513e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915485 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -34.0338302606 [K]  (     -0.2829730878 [kJ/mol])
-Component [helium] average Widom:       0.9153175493, average chemical potential:   -3470.1391752090 [K]
-		(average excess chemical potential:      26.3683225921 [K], ideal-gas contribution:   -3496.5074978012 [K])
+	Component 0:     -34.0726461512 [K]  (     -0.2832958211 [kJ/mol])
+Component [helium] average Widom:       0.9154848013, average chemical potential:   -3470.1936225191 [K]
+		(average excess chemical potential:      26.3138752821 [K], ideal-gas contribution:   -3496.5074978012 [K])
 
 
 Current cycle: 5000 out of 100000
@@ -7236,11 +7236,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33894e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915122 [-])
+	Component 0: 2.29537e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.91558 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.9798624328 [K]  (     -0.2825243741 [kJ/mol])
-Component [helium] average Widom:       0.9151215936, average chemical potential:   -3470.0753710003 [K]
-		(average excess chemical potential:      26.4321268008 [K], ideal-gas contribution:   -3496.5074978012 [K])
+	Component 0:     -33.9800687045 [K]  (     -0.2825260892 [kJ/mol])
+Component [helium] average Widom:       0.9155804878, average chemical potential:   -3470.2247678966 [K]
+		(average excess chemical potential:      26.2827299046 [K], ideal-gas contribution:   -3496.5074978012 [K])
 
 
 Current cycle: 6000 out of 100000
@@ -7285,11 +7285,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33873e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915041 [-])
+	Component 0: 2.29522e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915521 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.9168474392 [K]  (     -0.2820004382 [kJ/mol])
-Component [helium] average Widom:       0.9150410806, average chemical potential:   -3470.0491515897 [K]
-		(average excess chemical potential:      26.4583462114 [K], ideal-gas contribution:   -3496.5074978011 [K])
+	Component 0:     -33.8660327840 [K]  (     -0.2815779415 [kJ/mol])
+Component [helium] average Widom:       0.9155206933, average chemical potential:   -3470.2053055439 [K]
+		(average excess chemical potential:      26.3021922573 [K], ideal-gas contribution:   -3496.5074978011 [K])
 
 
 Current cycle: 7000 out of 100000
@@ -7334,11 +7334,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33901e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915149 [-])
+	Component 0: 2.29508e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915467 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.9368232269 [K]  (     -0.2821665262 [kJ/mol])
-Component [helium] average Widom:       0.9151491107, average chemical potential:   -3470.0843315389 [K]
-		(average excess chemical potential:      26.4231662617 [K], ideal-gas contribution:   -3496.5074978006 [K])
+	Component 0:     -33.9120428440 [K]  (     -0.2819604906 [kJ/mol])
+Component [helium] average Widom:       0.9154665155, average chemical potential:   -3470.1876702440 [K]
+		(average excess chemical potential:      26.3198275565 [K], ideal-gas contribution:   -3496.5074978006 [K])
 
 
 Current cycle: 8000 out of 100000
@@ -7383,11 +7383,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33939e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915299 [-])
+	Component 0: 2.29527e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915543 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -34.0075414903 [K]  (     -0.2827545107 [kJ/mol])
-Component [helium] average Widom:       0.9152994160, average chemical potential:   -3470.1332714842 [K]
-		(average excess chemical potential:      26.3742263159 [K], ideal-gas contribution:   -3496.5074978001 [K])
+	Component 0:     -33.8961007184 [K]  (     -0.2818279403 [kJ/mol])
+Component [helium] average Widom:       0.9155431428, average chemical potential:   -3470.2126126973 [K]
+		(average excess chemical potential:      26.2948851028 [K], ideal-gas contribution:   -3496.5074978001 [K])
 
 
 Current cycle: 9000 out of 100000
@@ -7432,11 +7432,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33903e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915158 [-])
+	Component 0: 2.29519e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915511 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.9645354327 [K]  (     -0.2823969383 [kJ/mol])
-Component [helium] average Widom:       0.9151582230, average chemical potential:   -3470.0872987733 [K]
-		(average excess chemical potential:      26.4201990265 [K], ideal-gas contribution:   -3496.5074977998 [K])
+	Component 0:     -33.7683632339 [K]  (     -0.2807658715 [kJ/mol])
+Component [helium] average Widom:       0.9155109128, average chemical potential:   -3470.2021219736 [K]
+		(average excess chemical potential:      26.3053758262 [K], ideal-gas contribution:   -3496.5074977998 [K])
 
 
 Current cycle: 10000 out of 100000
@@ -7481,11 +7481,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.3392e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915224 [-])
+	Component 0: 2.29541e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915598 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.9097546014 [K]  (     -0.2819414650 [kJ/mol])
-Component [helium] average Widom:       0.9152235968, average chemical potential:   -3470.1085854926 [K]
-		(average excess chemical potential:      26.3989123069 [K], ideal-gas contribution:   -3496.5074977995 [K])
+	Component 0:     -33.7285799247 [K]  (     -0.2804350946 [kJ/mol])
+Component [helium] average Widom:       0.9155976840, average chemical potential:   -3470.2303648138 [K]
+		(average excess chemical potential:      26.2771329857 [K], ideal-gas contribution:   -3496.5074977995 [K])
 
 
 Current cycle: 11000 out of 100000
@@ -7530,11 +7530,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33936e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915287 [-])
+	Component 0: 2.2951e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915476 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8375458092 [K]  (     -0.2813410876 [kJ/mol])
-Component [helium] average Widom:       0.9152866144, average chemical potential:   -3470.1291035444 [K]
-		(average excess chemical potential:      26.3783942548 [K], ideal-gas contribution:   -3496.5074977993 [K])
+	Component 0:     -33.7127374507 [K]  (     -0.2803033729 [kJ/mol])
+Component [helium] average Widom:       0.9154755715, average chemical potential:   -3470.1906180988 [K]
+		(average excess chemical potential:      26.3168797005 [K], ideal-gas contribution:   -3496.5074977993 [K])
 
 
 Current cycle: 12000 out of 100000
@@ -7579,11 +7579,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33988e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915492 [-])
+	Component 0: 2.29507e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915463 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8929778430 [K]  (     -0.2818019753 [kJ/mol])
-Component [helium] average Widom:       0.9154915322, average chemical potential:   -3470.1958134833 [K]
-		(average excess chemical potential:      26.3116843158 [K], ideal-gas contribution:   -3496.5074977991 [K])
+	Component 0:     -33.7484617032 [K]  (     -0.2806004009 [kJ/mol])
+Component [helium] average Widom:       0.9154626272, average chemical potential:   -3470.1864045129 [K]
+		(average excess chemical potential:      26.3210932861 [K], ideal-gas contribution:   -3496.5074977991 [K])
 
 
 Current cycle: 13000 out of 100000
@@ -7628,11 +7628,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33985e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915478 [-])
+	Component 0: 2.29477e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915342 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8857593014 [K]  (     -0.2817419570 [kJ/mol])
-Component [helium] average Widom:       0.9154776386, average chemical potential:   -3470.1912909816 [K]
-		(average excess chemical potential:      26.3162068175 [K], ideal-gas contribution:   -3496.5074977991 [K])
+	Component 0:     -33.7008243920 [K]  (     -0.2802043221 [kJ/mol])
+Component [helium] average Widom:       0.9153415330, average chemical potential:   -3470.1469834741 [K]
+		(average excess chemical potential:      26.3605143249 [K], ideal-gas contribution:   -3496.5074977991 [K])
 
 
 Current cycle: 14000 out of 100000
@@ -7677,11 +7677,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34008e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.91557 [-])
+	Component 0: 2.29486e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.91538 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8875042882 [K]  (     -0.2817564656 [kJ/mol])
-Component [helium] average Widom:       0.9155698497, average chemical potential:   -3470.2213054047 [K]
-		(average excess chemical potential:      26.2861923948 [K], ideal-gas contribution:   -3496.5074977995 [K])
+	Component 0:     -33.6897031954 [K]  (     -0.2801118553 [kJ/mol])
+Component [helium] average Widom:       0.9153795679, average chemical potential:   -3470.1593659294 [K]
+		(average excess chemical potential:      26.3481318701 [K], ideal-gas contribution:   -3496.5074977995 [K])
 
 
 Current cycle: 15000 out of 100000
@@ -7726,11 +7726,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34022e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915623 [-])
+	Component 0: 2.29503e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915444 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.9323576121 [K]  (     -0.2821293970 [kJ/mol])
-Component [helium] average Widom:       0.9156228971, average chemical potential:   -3470.2385708276 [K]
-		(average excess chemical potential:      26.2689269723 [K], ideal-gas contribution:   -3496.5074977999 [K])
+	Component 0:     -33.7228109618 [K]  (     -0.2803871287 [kJ/mol])
+Component [helium] average Widom:       0.9154440433, average chemical potential:   -3470.1803550519 [K]
+		(average excess chemical potential:      26.3271427480 [K], ideal-gas contribution:   -3496.5074977999 [K])
 
 
 Current cycle: 16000 out of 100000
@@ -7775,11 +7775,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34044e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.91571 [-])
+	Component 0: 2.29513e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915484 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.9103400448 [K]  (     -0.2819463327 [kJ/mol])
-Component [helium] average Widom:       0.9157100835, average chemical potential:   -3470.2669453251 [K]
-		(average excess chemical potential:      26.2405524752 [K], ideal-gas contribution:   -3496.5074978002 [K])
+	Component 0:     -33.7390075161 [K]  (     -0.2805217944 [kJ/mol])
+Component [helium] average Widom:       0.9154837668, average chemical potential:   -3470.1932857810 [K]
+		(average excess chemical potential:      26.3142120192 [K], ideal-gas contribution:   -3496.5074978002 [K])
 
 
 Current cycle: 17000 out of 100000
@@ -7824,11 +7824,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.3403e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915656 [-])
+	Component 0: 2.295e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915435 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.9332594222 [K]  (     -0.2821368951 [kJ/mol])
-Component [helium] average Widom:       0.9156558951, average chemical potential:   -3470.2493102074 [K]
-		(average excess chemical potential:      26.2581875931 [K], ideal-gas contribution:   -3496.5074978006 [K])
+	Component 0:     -33.7287464444 [K]  (     -0.2804364791 [kJ/mol])
+Component [helium] average Widom:       0.9154348864, average chemical potential:   -3470.1773742256 [K]
+		(average excess chemical potential:      26.3301235749 [K], ideal-gas contribution:   -3496.5074978006 [K])
 
 
 Current cycle: 18000 out of 100000
@@ -7873,11 +7873,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34003e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915548 [-])
+	Component 0: 2.29499e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.91543 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8957791511 [K]  (     -0.2818252667 [kJ/mol])
-Component [helium] average Widom:       0.9155479961, average chemical potential:   -3470.2141924164 [K]
-		(average excess chemical potential:      26.2933053845 [K], ideal-gas contribution:   -3496.5074978008 [K])
+	Component 0:     -33.7356222911 [K]  (     -0.2804936481 [kJ/mol])
+Component [helium] average Widom:       0.9154298781, average chemical potential:   -3470.1757438934 [K]
+		(average excess chemical potential:      26.3317539074 [K], ideal-gas contribution:   -3496.5074978008 [K])
 
 
 Current cycle: 19000 out of 100000
@@ -7922,11 +7922,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33986e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.91548 [-])
+	Component 0: 2.29511e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915477 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8919978441 [K]  (     -0.2817938271 [kJ/mol])
-Component [helium] average Widom:       0.9154804100, average chemical potential:   -3470.1921931202 [K]
-		(average excess chemical potential:      26.3153046809 [K], ideal-gas contribution:   -3496.5074978011 [K])
+	Component 0:     -33.7344857787 [K]  (     -0.2804841986 [kJ/mol])
+Component [helium] average Widom:       0.9154767814, average chemical potential:   -3470.1910119482 [K]
+		(average excess chemical potential:      26.3164858529 [K], ideal-gas contribution:   -3496.5074978011 [K])
 
 
 Current cycle: 20000 out of 100000
@@ -7971,11 +7971,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.3399e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915497 [-])
+	Component 0: 2.29514e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915489 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8846998794 [K]  (     -0.2817331484 [kJ/mol])
-Component [helium] average Widom:       0.9154974268, average chemical potential:   -3470.1977322452 [K]
-		(average excess chemical potential:      26.3097655559 [K], ideal-gas contribution:   -3496.5074978011 [K])
+	Component 0:     -33.7880783328 [K]  (     -0.2809297920 [kJ/mol])
+Component [helium] average Widom:       0.9154893270, average chemical potential:   -3470.1950956761 [K]
+		(average excess chemical potential:      26.3124021249 [K], ideal-gas contribution:   -3496.5074978011 [K])
 
 
 Current cycle: 21000 out of 100000
@@ -8020,11 +8020,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33988e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915489 [-])
+	Component 0: 2.29514e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915489 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.9212474973 [K]  (     -0.2820370223 [kJ/mol])
-Component [helium] average Widom:       0.9154891719, average chemical potential:   -3470.1950452033 [K]
-		(average excess chemical potential:      26.3124525977 [K], ideal-gas contribution:   -3496.5074978011 [K])
+	Component 0:     -33.8069881790 [K]  (     -0.2810870172 [kJ/mol])
+Component [helium] average Widom:       0.9154887016, average chemical potential:   -3470.1948921007 [K]
+		(average excess chemical potential:      26.3126057004 [K], ideal-gas contribution:   -3496.5074978011 [K])
 
 
 Current cycle: 22000 out of 100000
@@ -8069,11 +8069,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33983e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915468 [-])
+	Component 0: 2.2952e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915514 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.9015517538 [K]  (     -0.2818732628 [kJ/mol])
-Component [helium] average Widom:       0.9154683727, average chemical potential:   -3470.1882747936 [K]
-		(average excess chemical potential:      26.3192230075 [K], ideal-gas contribution:   -3496.5074978011 [K])
+	Component 0:     -33.8326202284 [K]  (     -0.2813001340 [kJ/mol])
+Component [helium] average Widom:       0.9155137860, average chemical potential:   -3470.2030572257 [K]
+		(average excess chemical potential:      26.3044405754 [K], ideal-gas contribution:   -3496.5074978011 [K])
 
 
 Current cycle: 23000 out of 100000
@@ -8118,11 +8118,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33988e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.91549 [-])
+	Component 0: 2.29528e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915546 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.9163927451 [K]  (     -0.2819966577 [kJ/mol])
-Component [helium] average Widom:       0.9154901899, average chemical potential:   -3470.1953765655 [K]
-		(average excess chemical potential:      26.3121212356 [K], ideal-gas contribution:   -3496.5074978011 [K])
+	Component 0:     -33.8064231308 [K]  (     -0.2810823192 [kJ/mol])
+Component [helium] average Widom:       0.9155457764, average chemical potential:   -3470.2134699290 [K]
+		(average excess chemical potential:      26.2940278721 [K], ideal-gas contribution:   -3496.5074978011 [K])
 
 
 Current cycle: 24000 out of 100000
@@ -8167,11 +8167,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33983e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.91547 [-])
+	Component 0: 2.29535e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915575 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.9041935379 [K]  (     -0.2818952278 [kJ/mol])
-Component [helium] average Widom:       0.9154700560, average chemical potential:   -3470.1888227289 [K]
-		(average excess chemical potential:      26.3186750722 [K], ideal-gas contribution:   -3496.5074978011 [K])
+	Component 0:     -33.7844193848 [K]  (     -0.2808993698 [kJ/mol])
+Component [helium] average Widom:       0.9155750465, average chemical potential:   -3470.2229968634 [K]
+		(average excess chemical potential:      26.2845009377 [K], ideal-gas contribution:   -3496.5074978011 [K])
 
 
 Current cycle: 25000 out of 100000
@@ -8216,11 +8216,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33981e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915463 [-])
+	Component 0: 2.29518e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915507 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8950574385 [K]  (     -0.2818192660 [kJ/mol])
-Component [helium] average Widom:       0.9154627291, average chemical potential:   -3470.1864376974 [K]
-		(average excess chemical potential:      26.3210601037 [K], ideal-gas contribution:   -3496.5074978011 [K])
+	Component 0:     -33.7604732158 [K]  (     -0.2807002702 [kJ/mol])
+Component [helium] average Widom:       0.9155074270, average chemical potential:   -3470.2009873453 [K]
+		(average excess chemical potential:      26.3065104559 [K], ideal-gas contribution:   -3496.5074978011 [K])
 
 
 Current cycle: 26000 out of 100000
@@ -8265,11 +8265,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33984e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915476 [-])
+	Component 0: 2.29508e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915467 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8850725334 [K]  (     -0.2817362469 [kJ/mol])
-Component [helium] average Widom:       0.9154760134, average chemical potential:   -3470.1907619645 [K]
-		(average excess chemical potential:      26.3167358366 [K], ideal-gas contribution:   -3496.5074978011 [K])
+	Component 0:     -33.7683438467 [K]  (     -0.2807657103 [kJ/mol])
+Component [helium] average Widom:       0.9154673948, average chemical potential:   -3470.1879564810 [K]
+		(average excess chemical potential:      26.3195413201 [K], ideal-gas contribution:   -3496.5074978011 [K])
 
 
 Current cycle: 27000 out of 100000
@@ -8314,11 +8314,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33971e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915422 [-])
+	Component 0: 2.29499e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915429 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8885186498 [K]  (     -0.2817648995 [kJ/mol])
-Component [helium] average Widom:       0.9154220081, average chemical potential:   -3470.1731819670 [K]
-		(average excess chemical potential:      26.3343158340 [K], ideal-gas contribution:   -3496.5074978009 [K])
+	Component 0:     -33.7668269937 [K]  (     -0.2807530985 [kJ/mol])
+Component [helium] average Widom:       0.9154287563, average chemical potential:   -3470.1753786955 [K]
+		(average excess chemical potential:      26.3321191055 [K], ideal-gas contribution:   -3496.5074978009 [K])
 
 
 Current cycle: 28000 out of 100000
@@ -8363,11 +8363,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33991e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915501 [-])
+	Component 0: 2.29497e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915421 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8582097593 [K]  (     -0.2815128973 [kJ/mol])
-Component [helium] average Widom:       0.9155006347, average chemical potential:   -3470.1987764327 [K]
-		(average excess chemical potential:      26.3087213681 [K], ideal-gas contribution:   -3496.5074978008 [K])
+	Component 0:     -33.8209622290 [K]  (     -0.2812032040 [kJ/mol])
+Component [helium] average Widom:       0.9154209615, average chemical potential:   -3470.1728412635 [K]
+		(average excess chemical potential:      26.3346565373 [K], ideal-gas contribution:   -3496.5074978008 [K])
 
 
 Current cycle: 29000 out of 100000
@@ -8412,11 +8412,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34011e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.91558 [-])
+	Component 0: 2.29501e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915439 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8449042187 [K]  (     -0.2814022688 [kJ/mol])
-Component [helium] average Widom:       0.9155804869, average chemical potential:   -3470.2247675994 [K]
-		(average excess chemical potential:      26.2827302012 [K], ideal-gas contribution:   -3496.5074978007 [K])
+	Component 0:     -33.8234090133 [K]  (     -0.2812235477 [kJ/mol])
+Component [helium] average Widom:       0.9154394190, average chemical potential:   -3470.1788497313 [K]
+		(average excess chemical potential:      26.3286480693 [K], ideal-gas contribution:   -3496.5074978007 [K])
 
 
 Current cycle: 30000 out of 100000
@@ -8461,11 +8461,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34013e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915587 [-])
+	Component 0: 2.29495e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915412 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8463277489 [K]  (     -0.2814141047 [kJ/mol])
-Component [helium] average Widom:       0.9155867344, average chemical potential:   -3470.2268010212 [K]
-		(average excess chemical potential:      26.2806967793 [K], ideal-gas contribution:   -3496.5074978005 [K])
+	Component 0:     -33.8211334669 [K]  (     -0.2812046277 [kJ/mol])
+Component [helium] average Widom:       0.9154117817, average chemical potential:   -3470.1698529126 [K]
+		(average excess chemical potential:      26.3376448879 [K], ideal-gas contribution:   -3496.5074978005 [K])
 
 
 Current cycle: 31000 out of 100000
@@ -8510,11 +8510,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33996e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915523 [-])
+	Component 0: 2.29491e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915396 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8422938464 [K]  (     -0.2813805650 [kJ/mol])
-Component [helium] average Widom:       0.9155227482, average chemical potential:   -3470.2059743969 [K]
-		(average excess chemical potential:      26.3015234035 [K], ideal-gas contribution:   -3496.5074978004 [K])
+	Component 0:     -33.8367993464 [K]  (     -0.2813348811 [kJ/mol])
+Component [helium] average Widom:       0.9153960895, average chemical potential:   -3470.1647444603 [K]
+		(average excess chemical potential:      26.3427533401 [K], ideal-gas contribution:   -3496.5074978004 [K])
 
 
 Current cycle: 32000 out of 100000
@@ -8559,11 +8559,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34005e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915558 [-])
+	Component 0: 2.29477e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.91534 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8196387698 [K]  (     -0.2811922001 [kJ/mol])
-Component [helium] average Widom:       0.9155580653, average chemical potential:   -3470.2174697943 [K]
-		(average excess chemical potential:      26.2900280060 [K], ideal-gas contribution:   -3496.5074978003 [K])
+	Component 0:     -33.8281430064 [K]  (     -0.2812629083 [kJ/mol])
+Component [helium] average Widom:       0.9153400954, average chemical potential:   -3470.1465154638 [K]
+		(average excess chemical potential:      26.3609823365 [K], ideal-gas contribution:   -3496.5074978003 [K])
 
 
 Current cycle: 33000 out of 100000
@@ -8608,11 +8608,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34009e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.91557 [-])
+	Component 0: 2.29475e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915334 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8118561970 [K]  (     -0.2811274922 [kJ/mol])
-Component [helium] average Widom:       0.9155700944, average chemical potential:   -3470.2213850535 [K]
-		(average excess chemical potential:      26.2861127467 [K], ideal-gas contribution:   -3496.5074978002 [K])
+	Component 0:     -33.8318581894 [K]  (     -0.2812937981 [kJ/mol])
+Component [helium] average Widom:       0.9153344793, average chemical potential:   -3470.1446870512 [K]
+		(average excess chemical potential:      26.3628107490 [K], ideal-gas contribution:   -3496.5074978002 [K])
 
 
 Current cycle: 34000 out of 100000
@@ -8657,11 +8657,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34008e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915567 [-])
+	Component 0: 2.29467e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915304 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8283507036 [K]  (     -0.2812646352 [kJ/mol])
-Component [helium] average Widom:       0.9155666883, average chemical potential:   -3470.2202764365 [K]
-		(average excess chemical potential:      26.2872213639 [K], ideal-gas contribution:   -3496.5074978004 [K])
+	Component 0:     -33.8405991740 [K]  (     -0.2813664747 [kJ/mol])
+Component [helium] average Widom:       0.9153035653, average chemical potential:   -3470.1346224027 [K]
+		(average excess chemical potential:      26.3728753977 [K], ideal-gas contribution:   -3496.5074978004 [K])
 
 
 Current cycle: 35000 out of 100000
@@ -8706,11 +8706,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34009e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915571 [-])
+	Component 0: 2.2947e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915316 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8465726627 [K]  (     -0.2814161410 [kJ/mol])
-Component [helium] average Widom:       0.9155707264, average chemical potential:   -3470.2215907646 [K]
-		(average excess chemical potential:      26.2859070359 [K], ideal-gas contribution:   -3496.5074978006 [K])
+	Component 0:     -33.8374412694 [K]  (     -0.2813402184 [kJ/mol])
+Component [helium] average Widom:       0.9153158120, average chemical potential:   -3470.1386096040 [K]
+		(average excess chemical potential:      26.3688881966 [K], ideal-gas contribution:   -3496.5074978006 [K])
 
 
 Current cycle: 36000 out of 100000
@@ -8755,11 +8755,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34002e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915543 [-])
+	Component 0: 2.29475e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915334 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8467905250 [K]  (     -0.2814179524 [kJ/mol])
-Component [helium] average Widom:       0.9155426256, average chemical potential:   -3470.2124443589 [K]
-		(average excess chemical potential:      26.2950534418 [K], ideal-gas contribution:   -3496.5074978007 [K])
+	Component 0:     -33.8346301473 [K]  (     -0.2813168454 [kJ/mol])
+Component [helium] average Widom:       0.9153339309, average chemical potential:   -3470.1445085184 [K]
+		(average excess chemical potential:      26.3629892823 [K], ideal-gas contribution:   -3496.5074978007 [K])
 
 
 Current cycle: 37000 out of 100000
@@ -8804,11 +8804,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.3399e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915498 [-])
+	Component 0: 2.2948e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915354 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8444881149 [K]  (     -0.2813988091 [kJ/mol])
-Component [helium] average Widom:       0.9154980662, average chemical potential:   -3470.1979403625 [K]
-		(average excess chemical potential:      26.3095574384 [K], ideal-gas contribution:   -3496.5074978008 [K])
+	Component 0:     -33.8202095146 [K]  (     -0.2811969456 [kJ/mol])
+Component [helium] average Widom:       0.9153542087, average chemical potential:   -3470.1511101786 [K]
+		(average excess chemical potential:      26.3563876223 [K], ideal-gas contribution:   -3496.5074978008 [K])
 
 
 Current cycle: 38000 out of 100000
@@ -8853,11 +8853,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33998e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.91553 [-])
+	Component 0: 2.29479e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915352 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8487764766 [K]  (     -0.2814344646 [kJ/mol])
-Component [helium] average Widom:       0.9155301050, average chemical potential:   -3470.2083690126 [K]
-		(average excess chemical potential:      26.2991287883 [K], ideal-gas contribution:   -3496.5074978010 [K])
+	Component 0:     -33.8320874191 [K]  (     -0.2812957040 [kJ/mol])
+Component [helium] average Widom:       0.9153518439, average chemical potential:   -3470.1503403033 [K]
+		(average excess chemical potential:      26.3571574977 [K], ideal-gas contribution:   -3496.5074978010 [K])
 
 
 Current cycle: 39000 out of 100000
@@ -8902,11 +8902,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33998e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.91553 [-])
+	Component 0: 2.29472e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915323 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8337435452 [K]  (     -0.2813094738 [kJ/mol])
-Component [helium] average Widom:       0.9155297813, average chemical potential:   -3470.2082636488 [K]
-		(average excess chemical potential:      26.2992341523 [K], ideal-gas contribution:   -3496.5074978011 [K])
+	Component 0:     -33.8551470967 [K]  (     -0.2814874329 [kJ/mol])
+Component [helium] average Widom:       0.9153230829, average chemical potential:   -3470.1409767795 [K]
+		(average excess chemical potential:      26.3665210216 [K], ideal-gas contribution:   -3496.5074978011 [K])
 
 
 Current cycle: 40000 out of 100000
@@ -8951,11 +8951,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33999e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915532 [-])
+	Component 0: 2.29474e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915329 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8556580198 [K]  (     -0.2814916809 [kJ/mol])
-Component [helium] average Widom:       0.9155315036, average chemical potential:   -3470.2088242463 [K]
-		(average excess chemical potential:      26.2986735547 [K], ideal-gas contribution:   -3496.5074978011 [K])
+	Component 0:     -33.8434509323 [K]  (     -0.2813901855 [kJ/mol])
+Component [helium] average Widom:       0.9153286990, average chemical potential:   -3470.1428052084 [K]
+		(average excess chemical potential:      26.3646925927 [K], ideal-gas contribution:   -3496.5074978011 [K])
 
 
 Current cycle: 41000 out of 100000
@@ -9000,11 +9000,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34009e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915572 [-])
+	Component 0: 2.29471e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915318 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8544416602 [K]  (     -0.2814815675 [kJ/mol])
-Component [helium] average Widom:       0.9155715735, average chemical potential:   -3470.2218664900 [K]
-		(average excess chemical potential:      26.2856313111 [K], ideal-gas contribution:   -3496.5074978011 [K])
+	Component 0:     -33.8345562496 [K]  (     -0.2813162310 [kJ/mol])
+Component [helium] average Widom:       0.9153177492, average chemical potential:   -3470.1392402903 [K]
+		(average excess chemical potential:      26.3682575107 [K], ideal-gas contribution:   -3496.5074978011 [K])
 
 
 Current cycle: 42000 out of 100000
@@ -9049,11 +9049,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34018e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915609 [-])
+	Component 0: 2.29472e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.91532 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8694739911 [K]  (     -0.2816065533 [kJ/mol])
-Component [helium] average Widom:       0.9156090776, average chemical potential:   -3470.2340730766 [K]
-		(average excess chemical potential:      26.2734247245 [K], ideal-gas contribution:   -3496.5074978011 [K])
+	Component 0:     -33.8253280261 [K]  (     -0.2812395032 [kJ/mol])
+Component [helium] average Widom:       0.9153201894, average chemical potential:   -3470.1400347412 [K]
+		(average excess chemical potential:      26.3674630599 [K], ideal-gas contribution:   -3496.5074978011 [K])
 
 
 Current cycle: 43000 out of 100000
@@ -9098,11 +9098,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34013e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915589 [-])
+	Component 0: 2.2947e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915316 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8593987845 [K]  (     -0.2815227834 [kJ/mol])
-Component [helium] average Widom:       0.9155894986, average chemical potential:   -3470.2277007021 [K]
-		(average excess chemical potential:      26.2797970990 [K], ideal-gas contribution:   -3496.5074978011 [K])
+	Component 0:     -33.8238103337 [K]  (     -0.2812268844 [kJ/mol])
+Component [helium] average Widom:       0.9153155748, average chemical potential:   -3470.1385323560 [K]
+		(average excess chemical potential:      26.3689654451 [K], ideal-gas contribution:   -3496.5074978011 [K])
 
 
 Current cycle: 44000 out of 100000
@@ -9147,11 +9147,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34012e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915582 [-])
+	Component 0: 2.29474e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915329 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8579517356 [K]  (     -0.2815107519 [kJ/mol])
-Component [helium] average Widom:       0.9155820570, average chemical potential:   -3470.2252786425 [K]
-		(average excess chemical potential:      26.2822191586 [K], ideal-gas contribution:   -3496.5074978011 [K])
+	Component 0:     -33.8192548330 [K]  (     -0.2811890079 [kJ/mol])
+Component [helium] average Widom:       0.9153285326, average chemical potential:   -3470.1427510285 [K]
+		(average excess chemical potential:      26.3647467726 [K], ideal-gas contribution:   -3496.5074978011 [K])
 
 
 Current cycle: 45000 out of 100000
@@ -9196,11 +9196,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34013e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915586 [-])
+	Component 0: 2.2947e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915313 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8456028230 [K]  (     -0.2814080773 [kJ/mol])
-Component [helium] average Widom:       0.9155860219, average chemical potential:   -3470.2265691270 [K]
-		(average excess chemical potential:      26.2809286741 [K], ideal-gas contribution:   -3496.5074978011 [K])
+	Component 0:     -33.8231156595 [K]  (     -0.2812211086 [kJ/mol])
+Component [helium] average Widom:       0.9153127710, average chemical potential:   -3470.1376195195 [K]
+		(average excess chemical potential:      26.3698782816 [K], ideal-gas contribution:   -3496.5074978011 [K])
 
 
 Current cycle: 46000 out of 100000
@@ -9245,11 +9245,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34019e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.91561 [-])
+	Component 0: 2.29475e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915335 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8538841300 [K]  (     -0.2814769320 [kJ/mol])
-Component [helium] average Widom:       0.9156100675, average chemical potential:   -3470.2343952358 [K]
-		(average excess chemical potential:      26.2731025653 [K], ideal-gas contribution:   -3496.5074978011 [K])
+	Component 0:     -33.8183647538 [K]  (     -0.2811816074 [kJ/mol])
+Component [helium] average Widom:       0.9153347651, average chemical potential:   -3470.1447801137 [K]
+		(average excess chemical potential:      26.3627176874 [K], ideal-gas contribution:   -3496.5074978011 [K])
 
 
 Current cycle: 47000 out of 100000
@@ -9294,11 +9294,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34018e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915606 [-])
+	Component 0: 2.29482e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915361 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8484270246 [K]  (     -0.2814315591 [kJ/mol])
-Component [helium] average Widom:       0.9156061698, average chemical potential:   -3470.2331266759 [K]
-		(average excess chemical potential:      26.2743711251 [K], ideal-gas contribution:   -3496.5074978010 [K])
+	Component 0:     -33.8266984044 [K]  (     -0.2812508972 [kJ/mol])
+Component [helium] average Widom:       0.9153607143, average chemical potential:   -3470.1532281129 [K]
+		(average excess chemical potential:      26.3542696881 [K], ideal-gas contribution:   -3496.5074978010 [K])
 
 
 Current cycle: 48000 out of 100000
@@ -9343,11 +9343,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34018e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915609 [-])
+	Component 0: 2.29486e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915377 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8479537150 [K]  (     -0.2814276237 [kJ/mol])
-Component [helium] average Widom:       0.9156086283, average chemical potential:   -3470.2339268458 [K]
-		(average excess chemical potential:      26.2735709551 [K], ideal-gas contribution:   -3496.5074978009 [K])
+	Component 0:     -33.8479852556 [K]  (     -0.2814278860 [kJ/mol])
+Component [helium] average Widom:       0.9153766874, average chemical potential:   -3470.1584281979 [K]
+		(average excess chemical potential:      26.3490696030 [K], ideal-gas contribution:   -3496.5074978009 [K])
 
 
 Current cycle: 49000 out of 100000
@@ -9392,11 +9392,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34016e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.9156 [-])
+	Component 0: 2.29485e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915375 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8535857174 [K]  (     -0.2814744508 [kJ/mol])
-Component [helium] average Widom:       0.9155995790, average chemical potential:   -3470.2309815844 [K]
-		(average excess chemical potential:      26.2765162164 [K], ideal-gas contribution:   -3496.5074978008 [K])
+	Component 0:     -33.8394366112 [K]  (     -0.2813568086 [kJ/mol])
+Component [helium] average Widom:       0.9153752524, average chemical potential:   -3470.1579610256 [K]
+		(average excess chemical potential:      26.3495367752 [K], ideal-gas contribution:   -3496.5074978008 [K])
 
 
 Current cycle: 50000 out of 100000
@@ -9441,11 +9441,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34008e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915567 [-])
+	Component 0: 2.29496e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915419 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8507489438 [K]  (     -0.2814508646 [kJ/mol])
-Component [helium] average Widom:       0.9155665929, average chemical potential:   -3470.2202453874 [K]
-		(average excess chemical potential:      26.2872524133 [K], ideal-gas contribution:   -3496.5074978007 [K])
+	Component 0:     -33.8368694365 [K]  (     -0.2813354639 [kJ/mol])
+Component [helium] average Widom:       0.9154187103, average chemical potential:   -3470.1721084250 [K]
+		(average excess chemical potential:      26.3353893758 [K], ideal-gas contribution:   -3496.5074978007 [K])
 
 
 Current cycle: 51000 out of 100000
@@ -9490,11 +9490,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33999e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915532 [-])
+	Component 0: 2.29488e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915386 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8319307276 [K]  (     -0.2812944012 [kJ/mol])
-Component [helium] average Widom:       0.9155319477, average chemical potential:   -3470.2089688004 [K]
-		(average excess chemical potential:      26.2985290002 [K], ideal-gas contribution:   -3496.5074978007 [K])
+	Component 0:     -33.8203980223 [K]  (     -0.2811985129 [kJ/mol])
+Component [helium] average Widom:       0.9153860555, average chemical potential:   -3470.1614779512 [K]
+		(average excess chemical potential:      26.3460198494 [K], ideal-gas contribution:   -3496.5074978007 [K])
 
 
 Current cycle: 52000 out of 100000
@@ -9539,11 +9539,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33997e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915525 [-])
+	Component 0: 2.2949e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915394 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8344927970 [K]  (     -0.2813157034 [kJ/mol])
-Component [helium] average Widom:       0.9155250042, average chemical potential:   -3470.2067087346 [K]
-		(average excess chemical potential:      26.3007890660 [K], ideal-gas contribution:   -3496.5074978006 [K])
+	Component 0:     -33.8175435274 [K]  (     -0.2811747793 [kJ/mol])
+Component [helium] average Widom:       0.9153944697, average chemical potential:   -3470.1642171533 [K]
+		(average excess chemical potential:      26.3432806473 [K], ideal-gas contribution:   -3496.5074978006 [K])
 
 
 Current cycle: 53000 out of 100000
@@ -9588,11 +9588,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33996e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915522 [-])
+	Component 0: 2.29484e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915369 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8510302374 [K]  (     -0.2814532034 [kJ/mol])
-Component [helium] average Widom:       0.9155220519, average chemical potential:   -3470.2057477575 [K]
-		(average excess chemical potential:      26.3017500431 [K], ideal-gas contribution:   -3496.5074978006 [K])
+	Component 0:     -33.7993605191 [K]  (     -0.2810235973 [kJ/mol])
+Component [helium] average Widom:       0.9153694558, average chemical potential:   -3470.1560739596 [K]
+		(average excess chemical potential:      26.3514238409 [K], ideal-gas contribution:   -3496.5074978006 [K])
 
 
 Current cycle: 54000 out of 100000
@@ -9637,11 +9637,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34003e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915548 [-])
+	Component 0: 2.29494e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915409 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8428555973 [K]  (     -0.2813852356 [kJ/mol])
-Component [helium] average Widom:       0.9155476233, average chemical potential:   -3470.2140710708 [K]
-		(average excess chemical potential:      26.2934267299 [K], ideal-gas contribution:   -3496.5074978007 [K])
+	Component 0:     -33.8103954402 [K]  (     -0.2811153468 [kJ/mol])
+Component [helium] average Widom:       0.9154087993, average chemical potential:   -3470.1688820210 [K]
+		(average excess chemical potential:      26.3386157796 [K], ideal-gas contribution:   -3496.5074978007 [K])
 
 
 Current cycle: 55000 out of 100000
@@ -9686,11 +9686,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33999e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915531 [-])
+	Component 0: 2.29493e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915405 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8346953494 [K]  (     -0.2813173875 [kJ/mol])
-Component [helium] average Widom:       0.9155312159, average chemical potential:   -3470.2087305851 [K]
-		(average excess chemical potential:      26.2987672156 [K], ideal-gas contribution:   -3496.5074978007 [K])
+	Component 0:     -33.8194482428 [K]  (     -0.2811906160 [kJ/mol])
+Component [helium] average Widom:       0.9154053662, average chemical potential:   -3470.1677644254 [K]
+		(average excess chemical potential:      26.3397333754 [K], ideal-gas contribution:   -3496.5074978007 [K])
 
 
 Current cycle: 56000 out of 100000
@@ -9735,11 +9735,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34003e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915547 [-])
+	Component 0: 2.29494e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.91541 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8477255055 [K]  (     -0.2814257263 [kJ/mol])
-Component [helium] average Widom:       0.9155470933, average chemical potential:   -3470.2138985467 [K]
-		(average excess chemical potential:      26.2935992542 [K], ideal-gas contribution:   -3496.5074978008 [K])
+	Component 0:     -33.8176451003 [K]  (     -0.2811756238 [kJ/mol])
+Component [helium] average Widom:       0.9154098981, average chemical potential:   -3470.1692397094 [K]
+		(average excess chemical potential:      26.3382580915 [K], ideal-gas contribution:   -3496.5074978008 [K])
 
 
 Current cycle: 57000 out of 100000
@@ -9784,11 +9784,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33998e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.91553 [-])
+	Component 0: 2.29488e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915387 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8466081983 [K]  (     -0.2814164365 [kJ/mol])
-Component [helium] average Widom:       0.9155301550, average chemical potential:   -3470.2083852878 [K]
-		(average excess chemical potential:      26.2991125131 [K], ideal-gas contribution:   -3496.5074978009 [K])
+	Component 0:     -33.8318605327 [K]  (     -0.2812938175 [kJ/mol])
+Component [helium] average Widom:       0.9153872238, average chemical potential:   -3470.1618582876 [K]
+		(average excess chemical potential:      26.3456395133 [K], ideal-gas contribution:   -3496.5074978009 [K])
 
 
 Current cycle: 58000 out of 100000
@@ -9833,11 +9833,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33998e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915531 [-])
+	Component 0: 2.29501e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915438 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8386785499 [K]  (     -0.2813505057 [kJ/mol])
-Component [helium] average Widom:       0.9155307659, average chemical potential:   -3470.2085841441 [K]
-		(average excess chemical potential:      26.2989136569 [K], ideal-gas contribution:   -3496.5074978010 [K])
+	Component 0:     -33.8257357639 [K]  (     -0.2812428934 [kJ/mol])
+Component [helium] average Widom:       0.9154375885, average chemical potential:   -3470.1782538608 [K]
+		(average excess chemical potential:      26.3292439402 [K], ideal-gas contribution:   -3496.5074978010 [K])
 
 
 Current cycle: 59000 out of 100000
@@ -9882,11 +9882,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33999e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915531 [-])
+	Component 0: 2.29502e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.91544 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8345039176 [K]  (     -0.2813157959 [kJ/mol])
-Component [helium] average Widom:       0.9155311062, average chemical potential:   -3470.2086948948 [K]
-		(average excess chemical potential:      26.2988029063 [K], ideal-gas contribution:   -3496.5074978011 [K])
+	Component 0:     -33.8194640923 [K]  (     -0.2811907478 [kJ/mol])
+Component [helium] average Widom:       0.9154398543, average chemical potential:   -3470.1789914390 [K]
+		(average excess chemical potential:      26.3285063621 [K], ideal-gas contribution:   -3496.5074978011 [K])
 
 
 Current cycle: 60000 out of 100000
@@ -9931,11 +9931,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34008e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915567 [-])
+	Component 0: 2.29504e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915451 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8280450607 [K]  (     -0.2812620939 [kJ/mol])
-Component [helium] average Widom:       0.9155668826, average chemical potential:   -3470.2203396969 [K]
-		(average excess chemical potential:      26.2871581042 [K], ideal-gas contribution:   -3496.5074978011 [K])
+	Component 0:     -33.8212066145 [K]  (     -0.2812052359 [kJ/mol])
+Component [helium] average Widom:       0.9154506627, average chemical potential:   -3470.1825098277 [K]
+		(average excess chemical potential:      26.3249879734 [K], ideal-gas contribution:   -3496.5074978011 [K])
 
 
 Current cycle: 61000 out of 100000
@@ -9980,11 +9980,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34004e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915554 [-])
+	Component 0: 2.29506e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915456 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8275178319 [K]  (     -0.2812577103 [kJ/mol])
-Component [helium] average Widom:       0.9155537026, average chemical potential:   -3470.2160498177 [K]
-		(average excess chemical potential:      26.2914479834 [K], ideal-gas contribution:   -3496.5074978011 [K])
+	Component 0:     -33.8169231250 [K]  (     -0.2811696210 [kJ/mol])
+Component [helium] average Widom:       0.9154559704, average chemical potential:   -3470.1842375998 [K]
+		(average excess chemical potential:      26.3232602013 [K], ideal-gas contribution:   -3496.5074978011 [K])
 
 
 Current cycle: 62000 out of 100000
@@ -10029,11 +10029,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34001e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915541 [-])
+	Component 0: 2.29499e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915431 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8384317489 [K]  (     -0.2813484537 [kJ/mol])
-Component [helium] average Widom:       0.9155409523, average chemical potential:   -3470.2118997337 [K]
-		(average excess chemical potential:      26.2955980673 [K], ideal-gas contribution:   -3496.5074978011 [K])
+	Component 0:     -33.8070190373 [K]  (     -0.2810872738 [kJ/mol])
+Component [helium] average Widom:       0.9154314849, average chemical potential:   -3470.1762669542 [K]
+		(average excess chemical potential:      26.3312308469 [K], ideal-gas contribution:   -3496.5074978011 [K])
 
 
 Current cycle: 63000 out of 100000
@@ -10078,11 +10078,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33999e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915531 [-])
+	Component 0: 2.29491e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.9154 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8334910375 [K]  (     -0.2813073743 [kJ/mol])
-Component [helium] average Widom:       0.9155309838, average chemical potential:   -3470.2086550646 [K]
-		(average excess chemical potential:      26.2988427365 [K], ideal-gas contribution:   -3496.5074978011 [K])
+	Component 0:     -33.8094123847 [K]  (     -0.2811071732 [kJ/mol])
+Component [helium] average Widom:       0.9153996115, average chemical potential:   -3470.1658910325 [K]
+		(average excess chemical potential:      26.3416067686 [K], ideal-gas contribution:   -3496.5074978011 [K])
 
 
 Current cycle: 64000 out of 100000
@@ -10127,11 +10127,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33997e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915525 [-])
+	Component 0: 2.29486e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915377 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8454878815 [K]  (     -0.2814071217 [kJ/mol])
-Component [helium] average Widom:       0.9155245631, average chemical potential:   -3470.2065651524 [K]
-		(average excess chemical potential:      26.3009326487 [K], ideal-gas contribution:   -3496.5074978011 [K])
+	Component 0:     -33.8028741674 [K]  (     -0.2810528114 [kJ/mol])
+Component [helium] average Widom:       0.9153773973, average chemical potential:   -3470.1586593204 [K]
+		(average excess chemical potential:      26.3488384807 [K], ideal-gas contribution:   -3496.5074978011 [K])
 
 
 Current cycle: 65000 out of 100000
@@ -10176,11 +10176,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33994e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915514 [-])
+	Component 0: 2.29492e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915403 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8467992788 [K]  (     -0.2814180252 [kJ/mol])
-Component [helium] average Widom:       0.9155144576, average chemical potential:   -3470.2032758109 [K]
-		(average excess chemical potential:      26.3042219902 [K], ideal-gas contribution:   -3496.5074978011 [K])
+	Component 0:     -33.8024132094 [K]  (     -0.2810489788 [kJ/mol])
+Component [helium] average Widom:       0.9154033554, average chemical potential:   -3470.1671098234 [K]
+		(average excess chemical potential:      26.3403879777 [K], ideal-gas contribution:   -3496.5074978011 [K])
 
 
 Current cycle: 66000 out of 100000
@@ -10225,11 +10225,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33992e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915504 [-])
+	Component 0: 2.29493e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915407 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8527330087 [K]  (     -0.2814673610 [kJ/mol])
-Component [helium] average Widom:       0.9155041110, average chemical potential:   -3470.1999079731 [K]
-		(average excess chemical potential:      26.3075898280 [K], ideal-gas contribution:   -3496.5074978011 [K])
+	Component 0:     -33.8049835737 [K]  (     -0.2810703500 [kJ/mol])
+Component [helium] average Widom:       0.9154073210, average chemical potential:   -3470.1684007833 [K]
+		(average excess chemical potential:      26.3390970178 [K], ideal-gas contribution:   -3496.5074978011 [K])
 
 
 Current cycle: 67000 out of 100000
@@ -10274,11 +10274,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33994e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915514 [-])
+	Component 0: 2.29495e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915412 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8437163911 [K]  (     -0.2813923927 [kJ/mol])
-Component [helium] average Widom:       0.9155141208, average chemical potential:   -3470.2031661864 [K]
-		(average excess chemical potential:      26.3043316146 [K], ideal-gas contribution:   -3496.5074978010 [K])
+	Component 0:     -33.8027969472 [K]  (     -0.2810521694 [kJ/mol])
+Component [helium] average Widom:       0.9154119219, average chemical potential:   -3470.1698985414 [K]
+		(average excess chemical potential:      26.3375992597 [K], ideal-gas contribution:   -3496.5074978010 [K])
 
 
 Current cycle: 68000 out of 100000
@@ -10323,11 +10323,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33999e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915533 [-])
+	Component 0: 2.29498e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915428 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8478090972 [K]  (     -0.2814264213 [kJ/mol])
-Component [helium] average Widom:       0.9155329606, average chemical potential:   -3470.2092985000 [K]
-		(average excess chemical potential:      26.2981993009 [K], ideal-gas contribution:   -3496.5074978010 [K])
+	Component 0:     -33.8048830659 [K]  (     -0.2810695143 [kJ/mol])
+Component [helium] average Widom:       0.9154276192, average chemical potential:   -3470.1750085645 [K]
+		(average excess chemical potential:      26.3324892365 [K], ideal-gas contribution:   -3496.5074978010 [K])
 
 
 Current cycle: 69000 out of 100000
@@ -10372,11 +10372,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33997e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915526 [-])
+	Component 0: 2.29502e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.91544 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8428517953 [K]  (     -0.2813852040 [kJ/mol])
-Component [helium] average Widom:       0.9155261283, average chemical potential:   -3470.2070746160 [K]
-		(average excess chemical potential:      26.3004231849 [K], ideal-gas contribution:   -3496.5074978009 [K])
+	Component 0:     -33.7986407891 [K]  (     -0.2810176132 [kJ/mol])
+Component [helium] average Widom:       0.9154401125, average chemical potential:   -3470.1790754785 [K]
+		(average excess chemical potential:      26.3284223224 [K], ideal-gas contribution:   -3496.5074978009 [K])
 
 
 Current cycle: 70000 out of 100000
@@ -10421,11 +10421,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34001e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.91554 [-])
+	Component 0: 2.29494e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915411 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8386466260 [K]  (     -0.2813502403 [kJ/mol])
-Component [helium] average Widom:       0.9155398579, average chemical potential:   -3470.2115435235 [K]
-		(average excess chemical potential:      26.2959542774 [K], ideal-gas contribution:   -3496.5074978008 [K])
+	Component 0:     -33.7950680318 [K]  (     -0.2809879076 [kJ/mol])
+Component [helium] average Widom:       0.9154113731, average chemical potential:   -3470.1697199055 [K]
+		(average excess chemical potential:      26.3377778954 [K], ideal-gas contribution:   -3496.5074978008 [K])
 
 
 Current cycle: 71000 out of 100000
@@ -10470,11 +10470,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34002e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915543 [-])
+	Component 0: 2.29493e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915406 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8292126442 [K]  (     -0.2812718018 [kJ/mol])
-Component [helium] average Widom:       0.9155432555, average chemical potential:   -3470.2126494106 [K]
-		(average excess chemical potential:      26.2948483902 [K], ideal-gas contribution:   -3496.5074978008 [K])
+	Component 0:     -33.8007968976 [K]  (     -0.2810355400 [kJ/mol])
+Component [helium] average Widom:       0.9154064555, average chemical potential:   -3470.1681190115 [K]
+		(average excess chemical potential:      26.3393787893 [K], ideal-gas contribution:   -3496.5074978008 [K])
 
 
 Current cycle: 72000 out of 100000
@@ -10519,11 +10519,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34006e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915561 [-])
+	Component 0: 2.29493e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915404 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8355438305 [K]  (     -0.2813244422 [kJ/mol])
-Component [helium] average Widom:       0.9155613453, average chemical potential:   -3470.2185373970 [K]
-		(average excess chemical potential:      26.2889604037 [K], ideal-gas contribution:   -3496.5074978007 [K])
+	Component 0:     -33.8037743947 [K]  (     -0.2810602963 [kJ/mol])
+Component [helium] average Widom:       0.9154042189, average chemical potential:   -3470.1673909393 [K]
+		(average excess chemical potential:      26.3401068614 [K], ideal-gas contribution:   -3496.5074978007 [K])
 
 
 Current cycle: 73000 out of 100000
@@ -10568,11 +10568,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34011e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.91558 [-])
+	Component 0: 2.29492e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915401 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8320724009 [K]  (     -0.2812955791 [kJ/mol])
-Component [helium] average Widom:       0.9155795201, average chemical potential:   -3470.2244529423 [K]
-		(average excess chemical potential:      26.2830448584 [K], ideal-gas contribution:   -3496.5074978007 [K])
+	Component 0:     -33.7952202583 [K]  (     -0.2809891733 [kJ/mol])
+Component [helium] average Widom:       0.9154010384, average chemical potential:   -3470.1663555502 [K]
+		(average excess chemical potential:      26.3411422505 [K], ideal-gas contribution:   -3496.5074978007 [K])
 
 
 Current cycle: 74000 out of 100000
@@ -10617,11 +10617,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34004e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915552 [-])
+	Component 0: 2.29495e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915415 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8212300086 [K]  (     -0.2812054304 [kJ/mol])
-Component [helium] average Widom:       0.9155516068, average chemical potential:   -3470.2153676369 [K]
-		(average excess chemical potential:      26.2921301638 [K], ideal-gas contribution:   -3496.5074978008 [K])
+	Component 0:     -33.8064881090 [K]  (     -0.2810828594 [kJ/mol])
+Component [helium] average Widom:       0.9154146272, average chemical potential:   -3470.1707792189 [K]
+		(average excess chemical potential:      26.3367185819 [K], ideal-gas contribution:   -3496.5074978008 [K])
 
 
 Current cycle: 75000 out of 100000
@@ -10666,11 +10666,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34004e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915552 [-])
+	Component 0: 2.29498e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915426 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8202375870 [K]  (     -0.2811971790 [kJ/mol])
-Component [helium] average Widom:       0.9155521488, average chemical potential:   -3470.2155440500 [K]
-		(average excess chemical potential:      26.2919537509 [K], ideal-gas contribution:   -3496.5074978008 [K])
+	Component 0:     -33.8127907809 [K]  (     -0.2811352628 [kJ/mol])
+Component [helium] average Widom:       0.9154257142, average chemical potential:   -3470.1743884079 [K]
+		(average excess chemical potential:      26.3331093930 [K], ideal-gas contribution:   -3496.5074978008 [K])
 
 
 Current cycle: 76000 out of 100000
@@ -10715,11 +10715,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34005e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915556 [-])
+	Component 0: 2.29498e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915425 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8147359504 [K]  (     -0.2811514358 [kJ/mol])
-Component [helium] average Widom:       0.9155562939, average chemical potential:   -3470.2168932397 [K]
-		(average excess chemical potential:      26.2906045612 [K], ideal-gas contribution:   -3496.5074978009 [K])
+	Component 0:     -33.8152770662 [K]  (     -0.2811559349 [kJ/mol])
+Component [helium] average Widom:       0.9154253696, average chemical potential:   -3470.1742762205 [K]
+		(average excess chemical potential:      26.3332215804 [K], ideal-gas contribution:   -3496.5074978009 [K])
 
 
 Current cycle: 77000 out of 100000
@@ -10764,11 +10764,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34002e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915544 [-])
+	Component 0: 2.29497e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915421 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8093359390 [K]  (     -0.2811065376 [kJ/mol])
-Component [helium] average Widom:       0.9155436757, average chemical potential:   -3470.2127861525 [K]
-		(average excess chemical potential:      26.2947116485 [K], ideal-gas contribution:   -3496.5074978010 [K])
+	Component 0:     -33.8128072360 [K]  (     -0.2811353996 [kJ/mol])
+Component [helium] average Widom:       0.9154211195, average chemical potential:   -3470.1728926747 [K]
+		(average excess chemical potential:      26.3346051263 [K], ideal-gas contribution:   -3496.5074978010 [K])
 
 
 Current cycle: 78000 out of 100000
@@ -10813,11 +10813,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34001e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915539 [-])
+	Component 0: 2.29489e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.91539 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8101942852 [K]  (     -0.2811136743 [kJ/mol])
-Component [helium] average Widom:       0.9155387825, average chemical potential:   -3470.2111934687 [K]
-		(average excess chemical potential:      26.2963043323 [K], ideal-gas contribution:   -3496.5074978010 [K])
+	Component 0:     -33.8203784423 [K]  (     -0.2811983501 [kJ/mol])
+Component [helium] average Widom:       0.9153899444, average chemical potential:   -3470.1627439741 [K]
+		(average excess chemical potential:      26.3447538270 [K], ideal-gas contribution:   -3496.5074978010 [K])
 
 
 Current cycle: 79000 out of 100000
@@ -10862,11 +10862,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33998e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915528 [-])
+	Component 0: 2.29493e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915405 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8078891557 [K]  (     -0.2810945084 [kJ/mol])
-Component [helium] average Widom:       0.9155281003, average chemical potential:   -3470.2077164808 [K]
-		(average excess chemical potential:      26.2997813203 [K], ideal-gas contribution:   -3496.5074978011 [K])
+	Component 0:     -33.8243187194 [K]  (     -0.2812311114 [kJ/mol])
+Component [helium] average Widom:       0.9154054419, average chemical potential:   -3470.1677890549 [K]
+		(average excess chemical potential:      26.3397087462 [K], ideal-gas contribution:   -3496.5074978011 [K])
 
 
 Current cycle: 80000 out of 100000
@@ -10911,11 +10911,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915536 [-])
+	Component 0: 2.29491e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915398 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8094507941 [K]  (     -0.2811074926 [kJ/mol])
-Component [helium] average Widom:       0.9155361272, average chemical potential:   -3470.2103291994 [K]
-		(average excess chemical potential:      26.2971686017 [K], ideal-gas contribution:   -3496.5074978011 [K])
+	Component 0:     -33.8300697749 [K]  (     -0.2812789284 [kJ/mol])
+Component [helium] average Widom:       0.9153984237, average chemical potential:   -3470.1655043388 [K]
+		(average excess chemical potential:      26.3419934623 [K], ideal-gas contribution:   -3496.5074978011 [K])
 
 
 Current cycle: 81000 out of 100000
@@ -10960,11 +10960,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34001e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915539 [-])
+	Component 0: 2.29493e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915407 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8023344436 [K]  (     -0.2810483239 [kJ/mol])
-Component [helium] average Widom:       0.9155389004, average chemical potential:   -3470.2112318611 [K]
-		(average excess chemical potential:      26.2962659400 [K], ideal-gas contribution:   -3496.5074978011 [K])
+	Component 0:     -33.8239067096 [K]  (     -0.2812276858 [kJ/mol])
+Component [helium] average Widom:       0.9154069944, average chemical potential:   -3470.1682944693 [K]
+		(average excess chemical potential:      26.3392033318 [K], ideal-gas contribution:   -3496.5074978011 [K])
 
 
 Current cycle: 82000 out of 100000
@@ -11009,11 +11009,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34003e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.91555 [-])
+	Component 0: 2.29496e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915416 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.7934572258 [K]  (     -0.2809745146 [kJ/mol])
-Component [helium] average Widom:       0.9155496175, average chemical potential:   -3470.2147201587 [K]
-		(average excess chemical potential:      26.2927776423 [K], ideal-gas contribution:   -3496.5074978011 [K])
+	Component 0:     -33.8248584936 [K]  (     -0.2812355993 [kJ/mol])
+Component [helium] average Widom:       0.9154162231, average chemical potential:   -3470.1712987288 [K]
+		(average excess chemical potential:      26.3361990723 [K], ideal-gas contribution:   -3496.5074978011 [K])
 
 
 Current cycle: 83000 out of 100000
@@ -11058,11 +11058,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34004e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915554 [-])
+	Component 0: 2.29502e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915444 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.7851821234 [K]  (     -0.2809057115 [kJ/mol])
-Component [helium] average Widom:       0.9155542583, average chemical potential:   -3470.2162306694 [K]
-		(average excess chemical potential:      26.2912671317 [K], ideal-gas contribution:   -3496.5074978011 [K])
+	Component 0:     -33.8252016167 [K]  (     -0.2812384522 [kJ/mol])
+Component [helium] average Widom:       0.9154435465, average chemical potential:   -3470.1801933236 [K]
+		(average excess chemical potential:      26.3273044775 [K], ideal-gas contribution:   -3496.5074978011 [K])
 
 
 Current cycle: 84000 out of 100000
@@ -11107,11 +11107,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34005e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915557 [-])
+	Component 0: 2.29499e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915429 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.7924748524 [K]  (     -0.2809663467 [kJ/mol])
-Component [helium] average Widom:       0.9155572907, average chemical potential:   -3470.2172176682 [K]
-		(average excess chemical potential:      26.2902801328 [K], ideal-gas contribution:   -3496.5074978011 [K])
+	Component 0:     -33.8264269054 [K]  (     -0.2812486398 [kJ/mol])
+Component [helium] average Widom:       0.9154294601, average chemical potential:   -3470.1756078290 [K]
+		(average excess chemical potential:      26.3318899721 [K], ideal-gas contribution:   -3496.5074978011 [K])
 
 
 Current cycle: 85000 out of 100000
@@ -11156,11 +11156,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34007e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915566 [-])
+	Component 0: 2.29502e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915442 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.7920605427 [K]  (     -0.2809629019 [kJ/mol])
-Component [helium] average Widom:       0.9155659034, average chemical potential:   -3470.2200209590 [K]
-		(average excess chemical potential:      26.2874768421 [K], ideal-gas contribution:   -3496.5074978011 [K])
+	Component 0:     -33.8225806217 [K]  (     -0.2812166600 [kJ/mol])
+Component [helium] average Widom:       0.9154422176, average chemical potential:   -3470.1797607345 [K]
+		(average excess chemical potential:      26.3277370666 [K], ideal-gas contribution:   -3496.5074978011 [K])
 
 
 Current cycle: 86000 out of 100000
@@ -11205,11 +11205,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34007e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915564 [-])
+	Component 0: 2.29506e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915458 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.7900742475 [K]  (     -0.2809463869 [kJ/mol])
-Component [helium] average Widom:       0.9155636685, average chemical potential:   -3470.2192935428 [K]
-		(average excess chemical potential:      26.2882042583 [K], ideal-gas contribution:   -3496.5074978011 [K])
+	Component 0:     -33.8213552947 [K]  (     -0.2812064721 [kJ/mol])
+Component [helium] average Widom:       0.9154579660, average chemical potential:   -3470.1848872110 [K]
+		(average excess chemical potential:      26.3226105901 [K], ideal-gas contribution:   -3496.5074978011 [K])
 
 
 Current cycle: 87000 out of 100000
@@ -11254,11 +11254,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34006e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915562 [-])
+	Component 0: 2.29503e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915445 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.7886664245 [K]  (     -0.2809346816 [kJ/mol])
-Component [helium] average Widom:       0.9155616256, average chemical potential:   -3470.2186286241 [K]
-		(average excess chemical potential:      26.2888691770 [K], ideal-gas contribution:   -3496.5074978010 [K])
+	Component 0:     -33.8169010007 [K]  (     -0.2811694370 [kJ/mol])
+Component [helium] average Widom:       0.9154454178, average chemical potential:   -3470.1808025074 [K]
+		(average excess chemical potential:      26.3266952937 [K], ideal-gas contribution:   -3496.5074978010 [K])
 
 
 Current cycle: 88000 out of 100000
@@ -11303,11 +11303,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34005e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915556 [-])
+	Component 0: 2.29503e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915444 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.7901906069 [K]  (     -0.2809473544 [kJ/mol])
-Component [helium] average Widom:       0.9155557855, average chemical potential:   -3470.2167277605 [K]
-		(average excess chemical potential:      26.2907700405 [K], ideal-gas contribution:   -3496.5074978010 [K])
+	Component 0:     -33.8233161022 [K]  (     -0.2812227752 [kJ/mol])
+Component [helium] average Widom:       0.9154443087, average chemical potential:   -3470.1804414639 [K]
+		(average excess chemical potential:      26.3270563371 [K], ideal-gas contribution:   -3496.5074978010 [K])
 
 
 Current cycle: 89000 out of 100000
@@ -11352,11 +11352,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.34001e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915539 [-])
+	Component 0: 2.29501e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915437 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.7855709097 [K]  (     -0.2809089441 [kJ/mol])
-Component [helium] average Widom:       0.9155391420, average chemical potential:   -3470.2113104878 [K]
-		(average excess chemical potential:      26.2961873131 [K], ideal-gas contribution:   -3496.5074978009 [K])
+	Component 0:     -33.8154353375 [K]  (     -0.2811572508 [kJ/mol])
+Component [helium] average Widom:       0.9154365881, average chemical potential:   -3470.1779281784 [K]
+		(average excess chemical potential:      26.3295696225 [K], ideal-gas contribution:   -3496.5074978009 [K])
 
 
 Current cycle: 90000 out of 100000
@@ -11401,11 +11401,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33996e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.91552 [-])
+	Component 0: 2.29503e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915447 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.7808727683 [K]  (     -0.2808698816 [kJ/mol])
-Component [helium] average Widom:       0.9155200618, average chemical potential:   -3470.2050999817 [K]
-		(average excess chemical potential:      26.3023978192 [K], ideal-gas contribution:   -3496.5074978009 [K])
+	Component 0:     -33.8083721027 [K]  (     -0.2810985238 [kJ/mol])
+Component [helium] average Widom:       0.9154474708, average chemical potential:   -3470.1814708103 [K]
+		(average excess chemical potential:      26.3260269906 [K], ideal-gas contribution:   -3496.5074978009 [K])
 
 
 Current cycle: 91000 out of 100000
@@ -11450,11 +11450,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33998e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915529 [-])
+	Component 0: 2.29502e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915443 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.7931750140 [K]  (     -0.2809721682 [kJ/mol])
-Component [helium] average Widom:       0.9155287237, average chemical potential:   -3470.2079194094 [K]
-		(average excess chemical potential:      26.2995783915 [K], ideal-gas contribution:   -3496.5074978008 [K])
+	Component 0:     -33.8101736288 [K]  (     -0.2811135025 [kJ/mol])
+Component [helium] average Widom:       0.9154430213, average chemical potential:   -3470.1800223723 [K]
+		(average excess chemical potential:      26.3274754286 [K], ideal-gas contribution:   -3496.5074978008 [K])
 
 
 Current cycle: 92000 out of 100000
@@ -11499,11 +11499,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33998e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915528 [-])
+	Component 0: 2.29503e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915447 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8053703660 [K]  (     -0.2810735660 [kJ/mol])
-Component [helium] average Widom:       0.9155282721, average chemical potential:   -3470.2077724071 [K]
-		(average excess chemical potential:      26.2997253937 [K], ideal-gas contribution:   -3496.5074978008 [K])
+	Component 0:     -33.8045191300 [K]  (     -0.2810664884 [kJ/mol])
+Component [helium] average Widom:       0.9154469609, average chemical potential:   -3470.1813048083 [K]
+		(average excess chemical potential:      26.3261929925 [K], ideal-gas contribution:   -3496.5074978008 [K])
 
 
 Current cycle: 93000 out of 100000
@@ -11548,11 +11548,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33994e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915513 [-])
+	Component 0: 2.29501e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915438 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8153538619 [K]  (     -0.2811565734 [kJ/mol])
-Component [helium] average Widom:       0.9155129812, average chemical potential:   -3470.2027952594 [K]
-		(average excess chemical potential:      26.3047025414 [K], ideal-gas contribution:   -3496.5074978008 [K])
+	Component 0:     -33.8014507764 [K]  (     -0.2810409767 [kJ/mol])
+Component [helium] average Widom:       0.9154384864, average chemical potential:   -3470.1785461477 [K]
+		(average excess chemical potential:      26.3289516531 [K], ideal-gas contribution:   -3496.5074978008 [K])
 
 
 Current cycle: 94000 out of 100000
@@ -11597,11 +11597,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33991e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915503 [-])
+	Component 0: 2.295e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915434 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8146026848 [K]  (     -0.2811503278 [kJ/mol])
-Component [helium] average Widom:       0.9155032673, average chemical potential:   -3470.1996333492 [K]
-		(average excess chemical potential:      26.3078644516 [K], ideal-gas contribution:   -3496.5074978008 [K])
+	Component 0:     -33.7964471043 [K]  (     -0.2809993738 [kJ/mol])
+Component [helium] average Widom:       0.9154339392, average chemical potential:   -3470.1770658831 [K]
+		(average excess chemical potential:      26.3304319177 [K], ideal-gas contribution:   -3496.5074978008 [K])
 
 
 Current cycle: 95000 out of 100000
@@ -11646,11 +11646,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33988e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915491 [-])
+	Component 0: 2.29503e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915447 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8125018450 [K]  (     -0.2811328604 [kJ/mol])
-Component [helium] average Widom:       0.9154911968, average chemical potential:   -3470.1957043281 [K]
-		(average excess chemical potential:      26.3117934728 [K], ideal-gas contribution:   -3496.5074978009 [K])
+	Component 0:     -33.7966113345 [K]  (     -0.2810007393 [kJ/mol])
+Component [helium] average Widom:       0.9154473478, average chemical potential:   -3470.1814307458 [K]
+		(average excess chemical potential:      26.3260670551 [K], ideal-gas contribution:   -3496.5074978009 [K])
 
 
 Current cycle: 96000 out of 100000
@@ -11695,11 +11695,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33991e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.9155 [-])
+	Component 0: 2.29499e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915429 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8068900717 [K]  (     -0.2810862015 [kJ/mol])
-Component [helium] average Widom:       0.9154998745, average chemical potential:   -3470.1985289908 [K]
-		(average excess chemical potential:      26.3089688101 [K], ideal-gas contribution:   -3496.5074978009 [K])
+	Component 0:     -33.8012042987 [K]  (     -0.2810389274 [kJ/mol])
+Component [helium] average Widom:       0.9154289082, average chemical potential:   -3470.1754281663 [K]
+		(average excess chemical potential:      26.3320696346 [K], ideal-gas contribution:   -3496.5074978009 [K])
 
 
 Current cycle: 97000 out of 100000
@@ -11744,11 +11744,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33995e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915517 [-])
+	Component 0: 2.29502e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915444 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8111341236 [K]  (     -0.2811214885 [kJ/mol])
-Component [helium] average Widom:       0.9155174734, average chemical potential:   -3470.2042574509 [K]
-		(average excess chemical potential:      26.3032403501 [K], ideal-gas contribution:   -3496.5074978010 [K])
+	Component 0:     -33.7996041179 [K]  (     -0.2810256227 [kJ/mol])
+Component [helium] average Widom:       0.9154435761, average chemical potential:   -3470.1802029619 [K]
+		(average excess chemical potential:      26.3272948390 [K], ideal-gas contribution:   -3496.5074978010 [K])
 
 
 Current cycle: 98000 out of 100000
@@ -11793,11 +11793,11 @@ Framework surface area:       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3
 	Cation surface area:                       0.0000000000 [m^2/g]        0.0000000000 [m^2/cm^3]       0.0000000000 [A^2]
 Compressibility:               -nan [-]
 Henry coefficients
-	Component 0: 2.33997e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915526 [-])
+	Component 0: 2.29501e-06 [mol/kg/Pa] (Rosenbluth factor new: 0.915439 [-])
 Energy <U_gh>_1-<U_h>_0 from Widom
-	Component 0:     -33.8203685301 [K]  (     -0.2811982677 [kJ/mol])
-Component [helium] average Widom:       0.9155258655, average chemical potential:   -3470.2069890579 [K]
-		(average excess chemical potential:      26.3005087432 [K], ideal-gas contribution:   -3496.5074978010 [K])
+	Component 0:     -33.7977301427 [K]  (     -0.2810100416 [kJ/mol])
+Component [helium] average Widom:       0.9154392410, average chemical potential:   -3470.1787917986 [K]
+		(average excess chemical potential:      26.3287060024 [K], ideal-gas contribution:   -3496.5074978010 [K])
 
 
 Current cycle: 99000 out of 100000
@@ -12066,8 +12066,8 @@ Total CPU timings:
 ===========================================
 initialization:                     0 [s]
 equilibration:                      0 [s]
-production run:            1330.96875 [s]
-total time:                1330.96875 [s]
+production run:            1374.59375 [s]
+total time:                1374.59375 [s]
 
 Production run CPU timings of the MC moves:
 ===========================================
@@ -12085,7 +12085,7 @@ Component: 0 (helium)
 	swap (deletion):                                     0 [s]
 	swap lambda (CFMC):                                  0 [s]
 	swap lambda (CB/CFMC):                               0 [s]
-	Widom:                                      1327.46875 [s]
+	Widom:                                      1369.96875 [s]
 	CF-Widom:                                            0 [s]
 	Gibbs Widom:                                         0 [s]
 	surface area:                                        0 [s]
@@ -12112,7 +12112,7 @@ Total all components:
 	swap (deletion):                                     0 [s]
 	swap lambda (CFMC):                                  0 [s]
 	swap lambda (CB/CFMC):                               0 [s]
-	Widom:                                      1327.46875 [s]
+	Widom:                                      1369.96875 [s]
 	CF-Widom:                                            0 [s]
 	Gibbs Widom:                                         0 [s]
 	surface area:                                        0 [s]
@@ -12157,7 +12157,7 @@ Particles moves:
 	swap (deletion):                                     0 [s]
 	swap lambda (CFMC):                                  0 [s]
 	swap lambda (CB/CFMC):                               0 [s]
-	Widom:                                      1327.46875 [s]
+	Widom:                                      1369.96875 [s]
 	CF-Widom:                                            0 [s]
 	Gibbs Widom:                                         0 [s]
 	surface area:                                        0 [s]
@@ -13284,23 +13284,23 @@ Component 0 [helium]
 
 Average Widom Rosenbluth factor:
 ================================
-	Block[ 0] 0.91548 [-]
-	Block[ 1] 0.915579 [-]
-	Block[ 2] 0.915534 [-]
-	Block[ 3] 0.915519 [-]
-	Block[ 4] 0.915493 [-]
+	Block[ 0] 0.915477 [-]
+	Block[ 1] 0.915169 [-]
+	Block[ 2] 0.915673 [-]
+	Block[ 3] 0.915302 [-]
+	Block[ 4] 0.915504 [-]
 	------------------------------------------------------------------------------
-	[helium] Average Widom Rosenbluth-weight:   0.915521 +/- 0.000069 [-]
+	[helium] Average Widom Rosenbluth-weight:   0.915425 +/- 0.000348 [-]
 
 Average Widom chemical potential:
 =================================
 	Block[ 0] -3470.19 [-]
-	Block[ 1] -3470.22 [-]
-	Block[ 2] -3470.21 [-]
-	Block[ 3] -3470.2 [-]
+	Block[ 1] -3470.09 [-]
+	Block[ 2] -3470.26 [-]
+	Block[ 3] -3470.13 [-]
 	Block[ 4] -3470.2 [-]
 	------------------------------------------------------------------------------
-	[helium] Average chemical potential:   -3470.21 +/- 0.022485 [K]
+	[helium] Average chemical potential:   -3470.17 +/- 0.113148 [K]
 
 Average Widom Ideal-gas contribution:
 =====================================
@@ -13314,13 +13314,13 @@ Average Widom Ideal-gas contribution:
 
 Average Widom excess contribution:
 ==================================
-	Block[ 0] 26.3153 [-]
-	Block[ 1] 26.2832 [-]
-	Block[ 2] 26.2979 [-]
-	Block[ 3] 26.3027 [-]
-	Block[ 4] 26.3111 [-]
+	Block[ 0] 26.3165 [-]
+	Block[ 1] 26.4166 [-]
+	Block[ 2] 26.2525 [-]
+	Block[ 3] 26.3733 [-]
+	Block[ 4] 26.3077 [-]
 	------------------------------------------------------------------------------
-	[helium] Average Widom excess chemical potential:   26.302 +/- 0.022485 [-]
+	[helium] Average Widom excess chemical potential:   26.3333 +/- 0.113148 [-]
 
 Average Gibbs Widom Rosenbluth factor:
 ======================================
@@ -13364,29 +13364,29 @@ Average Gibbs Widom excess contribution:
 
 Average Henry coefficient:
 ==========================
-	Block[ 0] 2.33986e-06 [mol/kg/Pa]
-	Block[ 1] 2.34011e-06 [mol/kg/Pa]
-	Block[ 2] 2.33999e-06 [mol/kg/Pa]
-	Block[ 3] 2.33995e-06 [mol/kg/Pa]
-	Block[ 4] 2.33989e-06 [mol/kg/Pa]
+	Block[ 0] 2.29511e-06 [mol/kg/Pa]
+	Block[ 1] 2.29434e-06 [mol/kg/Pa]
+	Block[ 2] 2.2956e-06 [mol/kg/Pa]
+	Block[ 3] 2.29467e-06 [mol/kg/Pa]
+	Block[ 4] 2.29518e-06 [mol/kg/Pa]
 	------------------------------------------------------------------------------
-	[helium] Average Henry coefficient:  2.33996e-06 +/- 1.76562e-10 [mol/kg/Pa]
+	[helium] Average Henry coefficient:  2.29498e-06 +/- 8.71374e-10 [mol/kg/Pa]
 
 Average adsorption energy <U_gh>_1-<U_h>_0 obtained from Widom-insertion:
 (Note: the total heat of adsorption is dH=<U_gh>_1-<U_h>_0 - <U_g> - RT)
 =========================================================================
-	Block[ 0] -33.8919978441     [K]
-	Block[ 1] -33.7754955290     [K]
-	Block[ 2] -33.8360246556     [K]
-	Block[ 3] -33.7280438215     [K]
-	Block[ 4] -33.8593419999     [K]
+	Block[ 0] -33.7344857787     [K]
+	Block[ 1] -33.9758489438     [K]
+	Block[ 2] -33.7481253864     [K]
+	Block[ 3] -33.8388847910     [K]
+	Block[ 4] -33.7129906229     [K]
 	------------------------------------------------------------------------------
-	[helium] Average  <U_gh>_1-<U_h>_0:      -33.8181807700 +/-       0.1180112225 [K]       (     -0.2811800776 +/-       0.0009812002 kJ/mol)
+	[helium] Average  <U_gh>_1-<U_h>_0:      -33.8020671046 +/-       0.1938395911 [K]       (     -0.2810461011 +/-       0.0016116725 kJ/mol)
 
 Simulation finished,  0 warnings
 
 
-Mon Jun  6 15:56:10 2022
-Simulation finished on Monday, June 06.
-The end time was 03:56 PM.
+Tue Jun  7 22:37:45 2022
+Simulation finished on Tuesday, June 07.
+The end time was 10:37 PM.
 
