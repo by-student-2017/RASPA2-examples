@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # UnitCellsi
-xuc=5; yuc=6; zuc=6
+xuc=5; yuc=6; zuc=1
 
 chmod +x run
 
@@ -10,14 +10,14 @@ if [ ! -e HeliumVoidFraction.txt ]; then
 fi
 
 #for ((i=4; i<=20; i++)); do
-for ((w=45; w<1000; w+=5)); do
+for ((w=40; w<1000; w+=5)); do
 	echo "-----------------------------------------"
 	date
 	#
         i=`echo $w | awk '{printf "%4.2f",($1/10)}'`
 	#zuc=$((24/${i}))
-	zuc=`echo $i | awk '{printf "%d",(24/$1+0.9999)}'`
-	echo "zuc="${zuc}
+	#zuc=`echo $i | awk '{printf "%d",(24/$1+0.9999)}'`
+	#echo "zuc="${zuc}
 	#
 	echo "folder name: "graphite_${i}A
 	if [ ! -e graphite_${i}A ]; then	
