@@ -16,7 +16,7 @@ for ((w=40; w<1000; w+=5)); do
 	#
         i=`echo $w | awk '{printf "%4.2f",($1/10)}'`
 	#zuc=$((24/${i}))
-	zuc=`echo $i | awk '{printf "%d",(24/$1)}'`
+	zuc=`echo $i | awk '{printf "%d",(24/$1+0.9999)}'`
 	echo "zuc="${zuc}
 	#
 	echo "folder name: "graphene_${i}A
