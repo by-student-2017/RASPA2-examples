@@ -6,7 +6,7 @@ xuc=5; yuc=6; zuc=6
 chmod +x run
 
 if [ ! -e HeliumVoidFraction.txt ]; then
-	echo "# Name, Value, Error(+/-): UnitCellsi ${xuc} ${yuc} ${zuc}" > HeliumVoidFraction.txt
+	echo "# Name, Value, Error(+/-): UnitCellsi" > HeliumVoidFraction.txt
 fi
 
 #for ((i=4; i<=20; i++)); do
